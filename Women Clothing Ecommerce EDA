@@ -1,1 +1,17 @@
+About Dataset : This dataset contains the following columns along with their descriptions:
 
+order_id: unique identifier for each order placed
+
+order_date: date and time of order
+
+sku: a number used by retailer to assign their products
+
+color: color of the product
+
+size: size of the product, treat missing values as ( One Size )
+
+unit_price: unit price of the product
+
+quantity: quantity ordered for that particular product
+
+revenue: unit_price * quantity
